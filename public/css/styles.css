@@ -1,0 +1,85 @@
+html{
+  height: 1000px;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+body {  
+   background-image: url("../Images/book1.jpg");
+  background-size: cover;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  height: 600px;
+  margin-top: 150px;
+  background-color: rgba(236, 177, 118, 0.8);
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-reg{
+  text-decoration: none;
+ 
+}
+.btn-log{
+  background-color:#8b4426;
+  width: 350px;
+  border-radius: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.btn-log a{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.p-reg{
+  margin-top: 80px;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #240750
+} 
+.log{
+  
+  height: 300px;
+  margin-left: 200px;
+  width: 1000px;
+}
+.mt-5{
+  padding: 70px;
+}
+.card{
+  margin-top: 70px;
+  height: 300px; 
+  border: none;
+  background-color: transparent;
+}
+.font{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-group{
+  width: 350px;
+  margin-bottom: 50px;
+  background: none;
+  border-radius: 50px;
+}
+input{
+  color: white;
+}
+.form-reg{
+  margin-left: 300px;
+  width: 600px;
+}
+.jumbotron{
+  background-color: #ECB176;
+}
